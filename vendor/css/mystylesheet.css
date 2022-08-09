@@ -654,13 +654,12 @@ ul.listing li{
     background: rgb(0 101 211 / 8%);
 }
 .tokenomics ul.listing{
-    display:flow-root;
+        width: calc(50% - 20px);
+    float: left;
 }
 .tokenomics ul.listing li {
     display: flex;
     background:#ffffff;
-    width: calc(50% - 20px);
-    float: left;
     margin-bottom:15px;
 }
 
@@ -737,7 +736,8 @@ ul.listing li{
     margin-bottom:20px;
 }
 .input-message{
-    height:180px;
+    height:160px;
+    width:100%;
 }
 .form-control{
     background: #ffffff;
