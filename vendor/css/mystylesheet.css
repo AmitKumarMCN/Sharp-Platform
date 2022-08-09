@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
 
 :root {
     --primary-blue:#000F9F;
@@ -8,7 +7,7 @@
     --secondary-blue-light:rgb(108, 99, 255, 0.09);
      --text-dark-:#2D2A26;
     --white-color:#ffffff;
-    --roboto:'Roboto', sans-serif;
+    --roboto:'open sans', sans-serif;
     --poppins:'Poppins', sans-serif;
     }
 
@@ -23,7 +22,7 @@ body{
 	font-size:16px;
     font-family: var(--roboto);
 	line-height:1.5;
-	font-weight:300;
+	/*font-weight:300;*/
 	font-kerning: normal;
 	text-rendering:optimizeSpeed;
     scroll-behavior: smooth;
@@ -61,7 +60,8 @@ a:focus, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .b
     border-radius:5px !important;
     font-family: var(--poppins);
     padding: 8px 24px;
-    font-size:20px;
+    font-size:16px;
+    font-weight:500;
 }
 .btn-outline{
     border-color: var(--white-color);
@@ -551,7 +551,7 @@ ul.listing li{
 }
 .hero-banner .hero-title{
     color: #ffffff;
-    font-size:50px;
+    font-size:42px;
     margin-top: 20px;
     font-weight: 900;
     line-height:60px;
@@ -561,7 +561,6 @@ ul.listing li{
 .hero-sub-title{
     color:var(--white-color);
     font-size:16px;
-    font-weight:500;
     font-family: var(--roboto);
 }
 .line{
@@ -610,23 +609,22 @@ ul.listing li{
 }
 .inner-wrap{
     padding:20px;
-    border:5px solid var(--primary-orange);
+    border:3px solid#1846ca;
     border-radius:10px;
     text-align: center;
+    
 }
 .inner-content{
     color: var(--text-dark-);
     font-size:16px;
     line-height:30px;
     min-height:100px;
-    font-weight:600;
 }
 .platform-features, .roadmap, .contact-us{
     color: var(--white-color);
     background-image: -webkit-linear-gradient(bottom left, #020381, #2874FC);
     background-image: -o-linear-gradient(bottom left, #020381, #2874FC);
     background-image: linear-gradient(to top right, #020381, #2874FC);
-    font-weight:500;
 }
 
 .how-it-works .all-boxes [class*="col-"]{
