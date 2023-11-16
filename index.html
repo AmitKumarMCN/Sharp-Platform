@@ -607,6 +607,17 @@ function checkLi( event ) {
   }
 }
 </script>
+<script>
+    if(window.matchMedia('(max-width: 1023px)').matches){
+        let navClick = document.getElementById('navbar-links');
+        navClick.addEventListener( 'click', checkLi );
 
+        function checkLi( event ) {
+        if ( event.target.tagName === 'A') {
+                $(".navbar-toggler").click();
+        }
+        }
+    }
+</script>
 </body>
 </html>
